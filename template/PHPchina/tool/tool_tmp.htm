@@ -1,0 +1,13 @@
+<table>
+	<tr>
+		<th>用户名</th>
+		<th>UID</th>
+	</tr>
+	<!--{loop $tool_list $val}-->
+	<tr>
+		<td>{$val['tool_user']}</td>
+		<td>{$val['tool_uid']}</td>
+	</tr>
+	<!--{/loop}-->
+</table>
+<h1>{eval echo time()}</h1>
